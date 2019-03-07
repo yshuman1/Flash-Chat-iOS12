@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 
 @UIApplicationMain
@@ -20,8 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
-        let myDatabase = Database.database().reference()
-        myDatabase.setValue("we've got data")
+//        let myDatabase = Database.database().reference()
+//        myDatabase.setValue("we've got data")
+        
         
         return true
     }
